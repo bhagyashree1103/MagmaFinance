@@ -3,9 +3,19 @@ package com.cjc.model;
 public class Employee {
 private int id;
 private String name;
+
+public Employee(int id, String name) {
+	super();
+	this.id = id;
+	this.name = name;
+}
+
+
 public Employee() {
 	// TODO Auto-generated constructor stub
 }
+
+
 public int getId() {
 	return id;
 }
